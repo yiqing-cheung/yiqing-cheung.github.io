@@ -52,10 +52,11 @@ body {
 }
 
 .hero {
-  display: grid;
-  grid-template-columns: 260px 1fr;
-  gap: 48px;
-  align-items: start;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+    padding: 40px 20px;
 }
 
 .profile-card {
@@ -65,6 +66,9 @@ body {
   padding: 24px;
   text-align: center;
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+  position: sticky;
+  top: 40px;
+  align-self: flex-start;
 }
 
 .avatar {
