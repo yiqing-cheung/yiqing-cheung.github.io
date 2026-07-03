@@ -8,48 +8,45 @@ title: Home
   <aside class="profile-card">
     <img src="./assets/images/avatar.jpg" alt="Shanshui Niu" class="avatar">
 
-    <h1>Shanshui Niu</h1>
+    <h1>Yiqing Zhang</h1>
 
-    <p>Quant Trader · ML Researcher · AI Agent Builder</p>
+    <p>Commodity Trading · Quant Research</p>
 
     <div class="profile-links">
-      <a href="https://github.com/你的GitHub用户名">GitHub</a>
-      <a href="https://www.linkedin.com/in/你的LinkedIn">LinkedIn</a>
-      <a href="mailto:你的邮箱">Email</a>
+      <a href="https://github.com/yiqing-cheung">GitHub</a>
+      <a href="linkedin.com/in/yiqing-zhang-quant">LinkedIn</a>
+      <a href="mailto:eaching.z@outlook.com">Email</a>
     </div>
   </aside>
 
   <section class="content-card">
 
-# Hi, I’m Shanshui.
+## About Me
 
-I build trading systems, forecasting models, and AI-assisted research workflows.
+I am a commodity trader with a background in quantitative finance, financial engineering, and data-driven research.
 
-My current interests include ETF fair value modeling, market microstructure, AI agents, multi-agent systems, and sports modeling.
+Currently, I focus on global commodity markets, combining physical trading insights with quantitative analysis.
+
+Before entering commodity trading, I gained experience in quantitative research, high-frequency trading, derivatives pricing, and systematic investment strategies.
+
+My interests include commodity markets, derivatives, market microstructure, and quantitative trading.
+
 
 ## Featured Projects
 
-<div class="project-grid">
+### Commodity Market Research
 
-  <div class="project-card">
-    <h3>ETF Fair Value Research</h3>
-    <p>Cross-market fair value modeling framework for ETF analysis.</p>
-    <a href="./projects">View project →</a>
-  </div>
+Analysis of global commodity flows, physical market structures, futures basis, and cross-market opportunities.
 
-  <div class="project-card">
-    <h3>AI Research Agent</h3>
-    <p>Workflow for turning research ideas into plans, code, experiments, and reports.</p>
-    <a href="./projects">View project →</a>
-  </div>
 
-  <div class="project-card">
-    <h3>HFT Event Encoder</h3>
-    <p>Event-based forecasting framework using trade and order book features.</p>
-    <a href="./projects">View project →</a>
-  </div>
+### ETF Option Market Making
 
-</div>
+Fair value modeling and market-making simulation based on derivatives pricing and machine learning methods.
+
+
+### Crypto Factor Research
+
+Factor construction and selection research using Fama-French framework and Double-Selection LASSO.
 
 ## Research / Analysis
 
