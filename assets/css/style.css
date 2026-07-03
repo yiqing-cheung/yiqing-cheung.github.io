@@ -1,3 +1,7 @@
+/* =========================
+   Base Reset
+========================= */
+
 * {
   box-sizing: border-box;
 }
@@ -10,6 +14,10 @@ body {
   line-height: 1.6;
 }
 
+/* =========================
+   Header
+========================= */
+
 .site-header {
   background: #ffffff;
   border-bottom: 1px solid #e5e7eb;
@@ -19,7 +27,7 @@ body {
 }
 
 .nav-container {
-  max-width: 1050px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 14px 24px;
   display: flex;
@@ -45,19 +53,23 @@ body {
   color: #111827;
 }
 
-.page-container {
-  max-width: 1050px;
-  margin: 0 auto;
-  padding: 42px 24px;
-}
+/* =========================
+   Page Layout (IMPORTANT)
+   上下结构
+========================= */
 
 .hero {
-    display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-    gap: 40px;
-    padding: 40px 20px;
+  display: flex;
+  flex-direction: column;   /* ⭐关键：上下布局 */
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 30px;
+  padding: 40px 20px;
 }
+
+/* =========================
+   Profile Card
+========================= */
 
 .profile-card {
   background: #ffffff;
@@ -66,9 +78,6 @@ body {
   padding: 24px;
   text-align: center;
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
-  position: sticky;
-  top: 40px;
-  align-self: flex-start;
 }
 
 .avatar {
@@ -90,11 +99,16 @@ body {
 }
 
 .profile-links a {
-  display: block;
-  margin: 8px 0;
+  display: inline-block;
+  margin: 6px 10px;
   color: #2563eb;
   text-decoration: none;
+  font-size: 14px;
 }
+
+/* =========================
+   Content Card
+========================= */
 
 .content-card {
   background: #ffffff;
@@ -102,9 +116,59 @@ body {
   border-radius: 18px;
   padding: 32px;
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
-  flex: 1;
-  max-width: 800px;
 }
+
+/* =========================
+   Typography
+========================= */
+
+h1, h2, h3 {
+  color: #111827;
+}
+
+h2 {
+  margin-top: 28px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+}
+
+h3 {
+  margin-top: 18px;
+}
+
+/* =========================
+   Bullet System
+========================= */
+
+p.bullet {
+  position: relative;
+  padding-left: 14px;
+  margin: 6px 0;
+  color: #374151;
+}
+
+p.bullet::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #6b7280;
+}
+
+/* =========================
+   Links
+========================= */
+
+a {
+  color: #2563eb;
+}
+
+a:hover {
+  color: #1d4ed8;
+}
+
+/* =========================
+   Project Grid (备用)
+========================= */
 
 .project-grid {
   display: grid;
@@ -120,14 +184,9 @@ body {
   padding: 18px;
 }
 
-.project-card h3 {
-  margin-top: 0;
-}
-
-.project-card a {
-  color: #2563eb;
-  text-decoration: none;
-}
+/* =========================
+   Footer
+========================= */
 
 .site-footer {
   text-align: center;
@@ -136,30 +195,22 @@ body {
   padding: 32px;
 }
 
-p.bullet {
-    position: relative;
-    padding-left: 14px;
-    margin: 6px 0;
-}
-
-p.bullet::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: #666;
-}
+/* =========================
+   Mobile
+========================= */
 
 @media (max-width: 760px) {
-  .nav-container {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .nav-links a {
-    margin: 0 8px;
-  }
 
   .hero {
-    grid-template-columns: 1fr;
+    padding: 20px 16px;
+  }
+
+  .content-card {
+    padding: 20px;
+  }
+
+  .profile-links a {
+    display: block;
+    margin: 6px 0;
   }
 }
