@@ -15,7 +15,7 @@ permalink: /research/
       <section class="tree-section">
         <button class="tree-toggle level-1" type="button" data-tree-toggle aria-expanded="true" aria-controls="pgm-tree"><span class="tree-caret" aria-hidden="true"></span><span>1. PGM 铂钯</span></button>
         <div id="pgm-tree" class="tree-branch">
-          <a id="pgm-china-inventory" class="tree-link level-2" href="/pgm/index.html" data-report="/pgm/index.html" data-title="1.1 铂钯广州库存">1.1 铂钯广州库存</a>
+          <a id="pgm-china-inventory" class="tree-link level-2" href="/pgm/index.html" data-report="/pgm/index.html" data-title="1.1 铂钯广期所库存">1.1 铂钯广期所库存</a>
           <a id="pgm-overseas-inventory" class="tree-link level-2" href="/pgm/nymex.html" data-report="/pgm/nymex.html" data-title="1.2 铂钯海外库存">1.2 铂钯海外库存</a>
           <button class="tree-toggle level-2" type="button" data-tree-toggle aria-expanded="true" aria-controls="china-trade-tree"><span class="tree-caret" aria-hidden="true"></span><span>1.3 中国铂钯供需</span></button>
           <div id="china-trade-tree" class="tree-branch nested">
@@ -42,11 +42,11 @@ permalink: /research/
   <main class="research-content">
     <header class="research-toolbar">
       <button class="research-menu-button" type="button" data-menu-toggle aria-label="打开目录" aria-expanded="false">☰ 目录</button>
-      <h1 data-report-title>1.1 铂钯广州库存</h1>
+      <h1 data-report-title>1.1 铂钯广期所库存</h1>
       <a class="research-open-link" href="/pgm/index.html" target="_blank" rel="noopener" data-open-report>新窗口打开 ↗</a>
     </header>
     <div class="research-frame-wrap">
-      <iframe class="research-frame" src="/pgm/index.html" title="1.1 铂钯广州库存" data-report-frame></iframe>
+      <iframe class="research-frame" src="/pgm/index.html" title="1.1 铂钯广期所库存" data-report-frame></iframe>
     </div>
   </main>
 </div>
