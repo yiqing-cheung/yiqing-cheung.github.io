@@ -21,6 +21,7 @@ permalink: /research/
           <div id="china-trade-tree" class="tree-branch nested">
             <a id="china-platinum-trade" class="tree-link level-3" href="/research/reports/pt_trade.html" data-report="/research/reports/pt_trade.html" data-title="1.3.1 中国铂进出口">1.3.1 中国铂进出口</a>
             <a id="china-palladium-trade" class="tree-link level-3" href="/research/reports/pd_trade.html" data-report="/research/reports/pd_trade.html" data-title="1.3.2 中国钯进出口">1.3.2 中国钯进出口</a>
+            <a id="china-platinum-balance" class="tree-link level-3" href="/research/reports/pt_balance.html" data-report="/research/reports/pt_balance.html" data-title="1.3.3 中国铂供需平衡表">1.3.3 中国铂供需平衡表</a>
           </div>
           <button class="tree-toggle level-2" type="button" data-tree-toggle aria-expanded="true" aria-controls="pgm-spread-tree"><span class="tree-caret" aria-hidden="true"></span><span>1.4 价差分析</span></button>
           <div id="pgm-spread-tree" class="tree-branch nested">
