@@ -27,6 +27,7 @@ permalink: /research/
           <button class="tree-toggle level-2" type="button" data-tree-toggle aria-expanded="true" aria-controls="pgm-spread-tree"><span class="tree-caret" aria-hidden="true"></span><span>1.4 价差分析</span></button>
           <div id="pgm-spread-tree" class="tree-branch nested">
             <a id="nymex-pgm-spread" class="tree-link level-3" href="/research/reports/nymex_spread.html" data-report="/research/reports/nymex_spread.html" data-title="1.4.1 NYMEX 铂金月差">1.4.1 NYMEX 铂金月差</a>
+            <a id="gfex-platinum-spread" class="tree-link level-3" href="/research/reports/pt_spread.html" data-report="/research/reports/pt_spread.html" data-title="1.4.2 广期所铂金月差">1.4.2 广期所铂金月差</a>
           </div>
         </div>
       </section>
