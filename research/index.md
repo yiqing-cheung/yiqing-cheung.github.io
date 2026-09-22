@@ -30,6 +30,11 @@ permalink: /research/
             <a id="gfex-platinum-spread" class="tree-link level-3" href="/research/reports/pt_spread.html" data-report="/research/reports/pt_spread.html" data-title="1.4.2 广期所铂金月差">1.4.2 广期所铂金月差</a>
             <a id="gfex-palladium-spread" class="tree-link level-3" href="/research/reports/pd_spread.html" data-report="/research/reports/pd_spread.html" data-title="1.4.3 广期所钯金月差">1.4.3 广期所钯金月差</a>
           </div>
+          <button class="tree-toggle level-2" type="button" data-tree-toggle aria-expanded="true" aria-controls="pgm-reports-tree"><span class="tree-caret" aria-hidden="true"></span><span>1.5 报告</span></button>
+          <div id="pgm-reports-tree" class="tree-branch nested">
+            <a id="platinum-roll-plan" class="tree-link level-3" href="/research/reports/pt_roll_plan.html" data-report="/research/reports/pt_roll_plan.html" data-title="1.5.1 铂金移仓计划">1.5.1 铂金移仓计划</a>
+            <a id="palladium-roll-plan" class="tree-link level-3" href="/research/reports/pd_roll_plan.html" data-report="/research/reports/pd_roll_plan.html" data-title="1.5.2 钯金移仓计划">1.5.2 钯金移仓计划</a>
+          </div>
         </div>
       </section>
       <section class="tree-section">
