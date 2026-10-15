@@ -40,9 +40,10 @@ permalink: /research/
       <section class="tree-section">
         <button class="tree-toggle level-1" type="button" data-tree-toggle aria-expanded="true" aria-controls="silver-tree"><span class="tree-caret" aria-hidden="true"></span><span>2. AG 白银</span></button>
         <div id="silver-tree" class="tree-branch">
-          <button class="tree-toggle level-2" type="button" data-tree-toggle aria-expanded="true" aria-controls="silver-spread-tree"><span class="tree-caret" aria-hidden="true"></span><span>2.1 价差分析</span></button>
+          <a id="silver-inventory" class="tree-link level-2" href="/research/reports/ag_inventory.html" data-report="/research/reports/ag_inventory.html" data-title="2.1 白银库存">2.1 白银库存</a>
+          <button class="tree-toggle level-2" type="button" data-tree-toggle aria-expanded="true" aria-controls="silver-spread-tree"><span class="tree-caret" aria-hidden="true"></span><span>2.2 价差分析</span></button>
           <div id="silver-spread-tree" class="tree-branch nested">
-            <a id="comex-silver-spread" class="tree-link level-3" href="/research/reports/comex_silver.html" data-report="/research/reports/comex_silver.html" data-title="2.1.1 COMEX 白银月差">2.1.1 COMEX 白银月差</a>
+            <a id="comex-silver-spread" class="tree-link level-3" href="/research/reports/comex_silver.html" data-report="/research/reports/comex_silver.html" data-title="2.2.1 COMEX 白银月差">2.2.1 COMEX 白银月差</a>
           </div>
         </div>
       </section>
