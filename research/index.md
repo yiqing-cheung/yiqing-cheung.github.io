@@ -13,6 +13,12 @@ permalink: /research/
     <div class="research-section-label">RESEARCH</div>
     <nav class="research-tree">
       <section class="tree-section">
+        <button class="tree-toggle level-1" type="button" data-tree-toggle aria-expanded="true" aria-controls="all-commodities-tree"><span class="tree-caret" aria-hidden="true"></span><span>0.全品种</span></button>
+        <div id="all-commodities-tree" class="tree-branch">
+          <a id="domestic-warrant-carry" class="tree-link level-2" href="/research/reports/domestic_warrant_carry.html" data-report="/research/reports/domestic_warrant_carry.html" data-title="0.1 国内仓单转抛分析">0.1 国内仓单转抛分析</a>
+        </div>
+      </section>
+      <section class="tree-section">
         <button class="tree-toggle level-1" type="button" data-tree-toggle aria-expanded="true" aria-controls="pgm-tree"><span class="tree-caret" aria-hidden="true"></span><span>1. PGM 铂钯</span></button>
         <div id="pgm-tree" class="tree-branch">
           <a id="pgm-china-inventory" class="tree-link level-2" href="/research/reports/index.html" data-report="/research/reports/index.html" data-title="1.1 铂钯广期所库存">1.1 铂钯广期所库存</a>
@@ -52,11 +58,11 @@ permalink: /research/
   <main class="research-content">
     <header class="research-toolbar">
       <button class="research-menu-button" type="button" data-menu-toggle aria-label="打开目录" aria-expanded="false">☰ 目录</button>
-      <h1 data-report-title>1.1 铂钯广期所库存</h1>
-      <a class="research-open-link" href="/research/reports/index.html" target="_blank" rel="noopener" data-open-report>新窗口打开 ↗</a>
+      <h1 data-report-title>0.1 国内仓单转抛分析</h1>
+      <a class="research-open-link" href="/research/reports/domestic_warrant_carry.html" target="_blank" rel="noopener" data-open-report>新窗口打开 ↗</a>
     </header>
     <div class="research-frame-wrap">
-      <iframe class="research-frame" src="/research/reports/index.html" title="1.1 铂钯广期所库存" data-report-frame></iframe>
+      <iframe class="research-frame" src="/research/reports/domestic_warrant_carry.html" title="0.1 国内仓单转抛分析" data-report-frame></iframe>
     </div>
   </main>
 </div>
