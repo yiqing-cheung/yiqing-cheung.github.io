@@ -41,6 +41,10 @@ permalink: /research/
             <a id="platinum-roll-plan" class="tree-link level-3" href="/research/reports/pt_roll_plan.html" data-report="/research/reports/pt_roll_plan.html" data-title="1.5.1 铂金移仓计划">1.5.1 铂金移仓计划</a>
             <a id="palladium-roll-plan" class="tree-link level-3" href="/research/reports/pd_roll_plan.html" data-report="/research/reports/pd_roll_plan.html" data-title="1.5.2 钯金移仓计划">1.5.2 钯金移仓计划</a>
           </div>
+          <button class="tree-toggle level-2" type="button" data-tree-toggle aria-expanded="true" aria-controls="platinum-trade-tree"><span class="tree-caret" aria-hidden="true"></span><span>1.6 铂金贸易</span></button>
+          <div id="platinum-trade-tree" class="tree-branch nested">
+            <a id="us-platinum-trade" class="tree-link level-3" href="/research/reports/us_pt_trade.html" data-report="/research/reports/us_pt_trade.html" data-title="1.6.1 美国铂进出口">1.6.1 美国铂进出口</a>
+          </div>
         </div>
       </section>
       <section class="tree-section">
