@@ -45,6 +45,8 @@ permalink: /research/
           <div id="platinum-trade-tree" class="tree-branch nested">
             <a id="us-platinum-trade" class="tree-link level-3" href="/research/reports/us_pt_trade.html" data-report="/research/reports/us_pt_trade.html" data-title="1.6.1 美国铂进出口">1.6.1 美国铂进出口</a>
             <a id="uk-platinum-trade" class="tree-link level-3" href="/research/reports/uk_pt_trade.html" data-report="/research/reports/uk_pt_trade.html" data-title="1.6.2 英国铂进出口">1.6.2 英国铂进出口</a>
+            <a id="hk-platinum-trade" class="tree-link level-3" href="/research/reports/hk_pt_trade.html" data-report="/research/reports/hk_pt_trade.html" data-title="1.6.3 香港铂进出口">1.6.3 香港铂进出口</a>
+            <a id="za-platinum-trade" class="tree-link level-3" href="/research/reports/za_pt_trade.html" data-report="/research/reports/za_pt_trade.html" data-title="1.6.4 南非铂进出口">1.6.4 南非铂进出口</a>
           </div>
         </div>
       </section>
